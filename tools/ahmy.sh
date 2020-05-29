@@ -1,4 +1,7 @@
 #!/bin/env bash
+#Coded By Djawed Hammadi
+#FACEBOOK:www.facebook.com/djawedx23
+#Copyright@2020
 cd ..
 ahmmalaf= cd xline/smali/ahmyth/mine/king/ahmyth
 sed 's+ const-string v4, "http://+'*/'+g' IOSocket.smali > line.txt
