@@ -75,7 +75,7 @@ elif [[ $ahm != "" ]];then
 printf "\033[1;33mAHMYTH \033[1;37m-->\033[0;32m Found \n\n"
 fi
 open= cd res/values/
-spymax=$(grep '"a"' strings.xml)
+spymax=$(grep '"yrhjwdsomxrgyodmxzotokqg3222"' strings.xml)
 if [[ $spymax == "" ]];then
 printf "\033[1;33mSPYMAX \033[1;37m-->\033[0;31m Not Found \n\n"
 elif [[ $spymax != "" ]];then
