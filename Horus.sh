@@ -46,13 +46,13 @@ fi
 scanner () {
 printf "\033[1;37mDo You Want To Scan Payload [Y/N] : "
 read choice
-printf "\n"
 #exit
 if [[ $choice == "N" ]] || [[ $choice == "n" ]] || [[ $choice == "no" ]] || [[ $choice == "No" ]];then
-printf "\033[1;37mOK (; \n"
+printf "\033[1;37mOK .. See You (: \n"
 exit 0 
 elif [[ $choice == "Y" ]] || [[ $choice == "y" ]] || [[ $choice == "YES" ]] || [[ $choice == "yes" ]];then
 #metasploit
+printf "\n"
 firs= cd xline
 metasploit=$(grep '"metasploit"' AndroidManifest.xml)
 if [[ $metasploit == "" ]];then
@@ -102,11 +102,11 @@ fi
 ask() {
 printf "\033[1;37mDo You Want To Get Informations [Y/N] : "
 read want 
-printf "\n"
 if [[ $want == "N" ]] || [[ $want == "n" ]] || [[ $want == "no" ]] || [[ $want == "No" ]];then
-printf "\033[1;37mOK (; \n"
+printf "\033[1;37mOK.. Se You (:\n"
 exit 0 
 elif [[ $want == "Y" ]] || [[ $want == "y" ]] || [[ $want == "YES" ]] || [[ $want == "yes" ]];then
+printf "\n"
 printf "\033[0;32m[\033[1;37m1\033[0;32m] \033[1;37m-->> \033[1;33mSPYMAX OR SPYNOTE OR MOBIHOK\n\n"
 printf "\033[0;32m[\033[1;37m2\033[0;32m] \033[1;37m-->> \033[1;33mDROIDJACK\n\n"
 printf "\033[0;32m[\033[1;37m3\033[0;32m] \033[1;37m-->> \033[1;33mAHMYTH\n\n"
@@ -214,13 +214,13 @@ fi
 ipinfo() {
 printf "\033[1;37mDo You Want To Get IP Informations [Y/N] : "
 read ipinfo
-printf "\n"
 if [[ $ipinfo == "N" ]] || [[ $ipinfo == "n" ]] || [[ $ipinfo == "no" ]] || [[ $ipinfo == "No" ]];then
 sleep 5 
-printf "\033[1;37mOK (;\n"
+printf "\033[1;37mOK.. See You (: \n"
 exit 0
 #exit
 elif [[ $ipinfo == "Y" ]] || [[ $ipinfo == "y" ]] || [[ $ipinfo == "YES" ]] || [[ $ipinfo == "yes" ]];then
+printf "\n"
 printf "\033[0;32m[\033[1;37m1\033[0;32m] \033[1;37m->> \033[1;33mHOST \n\n"
 printf "\033[0;32m[\033[1;37m2\033[0;32m] \033[1;37m->> \033[1;33mIP\n\n"
 printf "\033[1;37mPlease Enter Your Choice : "
@@ -248,7 +248,7 @@ printf "\033[0;32mDo You Have Another Payload !! [Y/N] : "
 read have 
 if [[ $have == "N" ]] || [[ $have == "n" ]] || [[ $have == "no" ]] || [[ $have == "No" ]];then
 printf "\n"
-printf "\033[1;37mOk ! See You And Thanks For Using This Tool <3 "
+printf "\033[1;37mOk ! See You And Thanks For Using This Tool <3 \n"
 elif [[ $ipinfo == "Y" ]] || [[ $ipinfo == "y" ]] || [[ $ipinfo == "YES" ]] || [[ $ipinfo == "yes" ]];then
 printf "\n"
 printf "\033[1;37mOk .. Restart !!"
