@@ -102,11 +102,11 @@ fi
 ask() {
 printf "\033[1;37mDo You Want To Get Informations [Y/N] : "
 read want 
+printf "\n"
 if [[ $want == "N" ]] || [[ $want == "n" ]] || [[ $want == "no" ]] || [[ $want == "No" ]];then
 printf "\033[1;37mOK.. Se You (:\n"
 exit 0 
 elif [[ $want == "Y" ]] || [[ $want == "y" ]] || [[ $want == "YES" ]] || [[ $want == "yes" ]];then
-printf "\n"
 printf "\033[0;32m[\033[1;37m1\033[0;32m] \033[1;37m-->> \033[1;33mSPYMAX OR SPYNOTE OR MOBIHOK\n\n"
 printf "\033[0;32m[\033[1;37m2\033[0;32m] \033[1;37m-->> \033[1;33mDROIDJACK\n\n"
 printf "\033[0;32m[\033[1;37m3\033[0;32m] \033[1;37m-->> \033[1;33mAHMYTH\n\n"
