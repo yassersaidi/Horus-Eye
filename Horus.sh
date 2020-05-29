@@ -212,6 +212,7 @@ fi
 #End_ip_code
 }
 ipinfo() {
+printf "\n"
 printf "\033[1;37mDo You Want To Get IP Informations [Y/N] : "
 read ipinfo
 if [[ $ipinfo == "N" ]] || [[ $ipinfo == "n" ]] || [[ $ipinfo == "no" ]] || [[ $ipinfo == "No" ]];then
