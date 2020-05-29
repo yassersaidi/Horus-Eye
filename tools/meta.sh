@@ -16,16 +16,16 @@ printf "\n"
 printf "\033[1;33mHOST_AND_PORT \033[1;37m-->\033[0;32m Found : \033[1;37m($toz)\n\n"
 fi
 http=$(grep -a "http://" class.txt)
-if [[ $toz_1 == "" ]];then
+if [[ $http == "" ]];then
 printf ""
-elif [[ $toz_1 != "" ]];then
+elif [[ $http != "" ]];then
 printf "\n"
 printf "\033[1;33mHOST_AND_PORT \033[1;37m-->\033[0;32m Found : \033[1;37m($http)\n\n"
 fi
 https=$(grep -a "https://" class.txt)
-if [[ $toz_2 == "" ]];then
+if [[ $https == "" ]];then
 printf ""
-elif [[ $toz_2 != "" ]];then
+elif [[ $https != "" ]];then
 printf "\n"
 printf "\033[1;33mHOST_AND_PORT \033[1;37m-->\033[0;32m Found : \033[1;37m($https)\n\n"
 fi
