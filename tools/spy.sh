@@ -6,21 +6,21 @@
 #host :
 cd ..
 go= cd xline/res/values
-spyhost=$(grep '"i"' strings.xml | awk -F">" '{print $2}' | awk -F"<" '{print $1}')
+spyhost=$(grep '"zzbtnkqnstukeleblupg3219"' strings.xml | awk -F">" '{print $2}' | awk -F"<" '{print $1}')
 if [[ $spyhost == "" ]];then
 printf ""
 elif [[ $spyhost != "" ]];then
 printf "\033[1;33mSPYHOST \033[1;37m-->\033[0;32m Found : \033[1;37m($spyhost)\n\n"
 fi
 #victim : 
-spyvictim=$(grep '"n"' strings.xml | awk -F">" '{print $2}' | awk -F"<" '{print $1}')
+spyvictim=$(grep '"qqnzofxbcnix3221"' strings.xml | awk -F">" '{print $2}' | awk -F"<" '{print $1}')
 if [[ $spyvictim == "" ]];then
 printf "\n"
 elif [[ $spyvictim != "" ]];then
 printf "\033[1;33mSPYVICTIM \033[1;37m-->\033[0;32m Found : \033[1;37m($spyvictim)\n\n"
 fi 
 #app_name : 
-spyapp=$(grep '"a"' strings.xml | awk -F">" '{print $2}' | awk -F"<" '{print $1}')
+spyapp=$(grep '"yrhjwdsomxrgyodmxzotokqg3222"' strings.xml | awk -F">" '{print $2}' | awk -F"<" '{print $1}')
 if [[ $spyapp == "" ]];then
 printf ""
 elif [[ $spyapp != "" ]];then
@@ -77,10 +77,16 @@ printf ""
 elif [[ $mobiver != "" ]];then
 printf "\033[1;33mMOBIVERSION \033[1;37m-->\033[0;32m Found : \033[1;37m($mobiver)\n\n"
 fi 
-#spynote_and_spymax_port : 
-spport=$(grep '"p"' strings.xml | awk -F">" '{print $2}' | awk -F"<" '{print $1}')
+#spymax_port : 
+spport=$(grep '"ahtjqhyzfwcefwapovbm3220"' strings.xml | awk -F">" '{print $2}' | awk -F"<" '{print $1}')
 if [[ $spport == "" ]];then
 printf ""
 elif [[ $spport != "" ]];then
 printf "\033[1;33mPORT \033[1;37m-->\033[0;32m Found : \033[1;37m($spport)\n\n"
 fi
+#spynote_port : 
+zokport=$(grep '"p"' strings.xml | awk -F">" '{print $2}' | awk -F"<" '{print $1}')
+if [[ $zokport == "" ]];then
+printf ""
+elif [[ $zokport != "" ]];then
+printf "\033[1;33mPORT \033[1;37m-->\033[0;32m Found : \033[1;37m($zokport)\n\n"
