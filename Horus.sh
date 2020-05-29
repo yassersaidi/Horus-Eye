@@ -254,6 +254,7 @@ elif [[ $ipinfo == "Y" ]] || [[ $ipinfo == "y" ]] || [[ $ipinfo == "YES" ]] || [
 printf "\n"
 printf "\033[1;37mOk .. Restart !!"
 sleep 5
+chmod +x Horus.sh
 bash Horus.sh
 else 
 printf "\n"
