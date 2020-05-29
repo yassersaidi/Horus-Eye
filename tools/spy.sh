@@ -1,4 +1,7 @@
 #!/bin/env bash
+#Coded By Djawed Hammadi
+#FACEBOOK:www.facebook.com/djawedx23
+#Copyright@2020
 #-------------------- SPYMAX : ------------------
 #host :
 cd ..
