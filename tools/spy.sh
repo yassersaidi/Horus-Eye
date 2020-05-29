@@ -90,3 +90,4 @@ if [[ $zokport == "" ]];then
 printf ""
 elif [[ $zokport != "" ]];then
 printf "\033[1;33mPORT \033[1;37m-->\033[0;32m Found : \033[1;37m($zokport)\n\n"
+fi
